@@ -1,0 +1,25 @@
+menu{
+    min-width: 500px;
+    min-height: 70px;
+    overflow: hidden;
+   
+}
+menu div{
+    width: 250px;
+    float: left;
+    margin: 5px;
+    min-height: 100px;
+    /*background: #D7FFF2;*/ 
+}
+menu div>span{
+    /*background: #97CCBC;*/
+    display: block;
+    color: #45787F; 
+    height: 30px;
+    padding: 5px;  
+    font-size: 20px;
+    border-bottom: 1px solid #45787F;
+}
+li a, li{
+  color: #45487F;   
+}

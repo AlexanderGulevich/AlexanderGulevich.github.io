@@ -1,0 +1,95 @@
+html,body,h1,menu,footer,main{
+    margin: 0;
+    padding: 0;
+    
+}
+
+#dynamicContent{
+    min-width:400px;
+    margin: 0 auto;
+    padding-bottom: 30px;
+}
+img{
+    float: right;
+}
+
+header {
+      height: 90px;
+      font-size: 35px;
+      color:#45787F;
+      /*margin-left: 30px;*/
+      margin-bottom: 20px;
+}
+header h3{
+      /*border-bottom:  1px solid #45787F;*/     
+      min-width: 400px;
+    
+}
+
+.leftSide{
+    float: left;
+    min-width: 400px;
+}
+.rightSide{
+   float: left;   
+   width: 200px;
+   
+}
+.rightSide img{
+     float: right;  
+     margin: 50px 0;
+     
+}
+
+main{
+    min-width: 500px;
+    min-height: 800px;
+}
+
+@font-face {
+    font-family: 'marskeregular';
+    src: url('../fonts/marske-webfont.eot');
+    src: url('../fonts/marske-webfont.eot?#iefix') format('embedded-opentype'),
+         url('../fonts/marske-webfont.ttf') format('truetype'),
+         url('../fonts/marske-webfont.svg#marskeregular') format('svg');
+    font-weight: normal;
+    font-style: normal;
+
+}
+
+@font-face {
+    font-family: 'getvoip_grotesqueregular';
+    src: url('../fonts/getvoip_grotesque-webfont.eot');
+    src: url('../fonts/getvoip_grotesque-webfont.eot?#iefix') format('embedded-opentype'),
+         url('../fonts/getvoip_grotesque-webfont.ttf') format('truetype'),
+         url('../fonts/getvoip_grotesque-webfont.svg#getvoip_grotesqueregular') format('svg');
+    font-weight: normal;
+    font-style: normal;
+
+}
+blockquote, blockquote cite {
+    font-family: 'marskeregular';
+    font-size: 20px;
+    font-style: inherit;
+    font-weight: 800;
+     
+    
+}
+.rightSide  q{
+    font-family: 'getvoip_grotesqueregular';
+    font-size: 15px;
+    color:#45787F;
+    font-weight: 500;
+     /*border-bottom:  1px solid #45787F;*/
+     width: 100%;
+}
+blockquote{
+    border-bottom:  1px solid #45787F;  
+}
+blockquote,footer{
+    
+}
+.titleOfContent{color:#45787F;}
+footer{
+    clear: both;
+}

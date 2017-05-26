@@ -1,0 +1,31 @@
+
+#boardForXO{
+    margin: 0 auto;
+    width: 300px;
+    height:300px;
+    border: 1px solid #45787F;
+    padding: 30px;
+    clear: both;
+    /*box-sizing: content-box;*/
+    
+}
+.cell{
+    box-sizing: border-box;
+    width: 100px;
+    height: 100px;
+    border: 1px solid #45787F;
+    float: left;
+    color: #45787F;
+    font-family: 'marskeregular';
+    font-size: 60px;
+    text-align: center;
+    line-height: 100px;
+        
+    
+}
+.cell:hover{
+    cursor: pointer;
+}
+.line{
+    
+}
