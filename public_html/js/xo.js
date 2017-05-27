@@ -1,11 +1,15 @@
 "use strict";
-(function () {
+function setBoard(){
 
-    var dynamicContent=document.getElementById('dynamicContent');
-    var titleOfContent=(dynamicContent.getElementsByClassName('titleOfContent'))[0];
-    insertBoardAfterTeg(titleOfContent);
-    var  boardForXO=document.getElementById("boardForXO");
+
+    var titleOfContent=document.getElementById('titleOfContent');
     setCaption();  
+    
+    insertBoardAfterTeg(titleOfContent);
+    
+    var  boardForXO=document.getElementById("boardForXO");
+    
+    
     boardForXO.onclick=function (event){
        
           var target = event.target; // где был клик?
@@ -15,7 +19,7 @@
 
                 if (target.className != 'cell') return; 
 
-                target.clicked=true;
+                target.clicked=true;// создал свойсмтво хранитель состояния
 
                 target.append("x");
         }
@@ -55,6 +59,5 @@
         
       
 }
-   
 
-}());
+}

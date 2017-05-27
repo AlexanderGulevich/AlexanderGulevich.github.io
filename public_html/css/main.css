@@ -3,11 +3,29 @@ html,body,h1,menu,footer,main{
     padding: 0;
     
 }
+#username{
+    
+   width: 200px; 
+   height: 30px;
+   float:right;
+   color: lavender;
+}
+#username input{
+    color: burlywood;
+    padding-left: 5px;
+}
 
 #dynamicContent{
     min-width:400px;
     margin: 0 auto;
     padding-bottom: 30px;
+}
+#dynamicContent h2{
+    
+    display: block;
+    width: 370px;
+    margin:30px auto;
+    
 }
 img{
     float: right;
@@ -23,12 +41,16 @@ header {
 header h3{
       /*border-bottom:  1px solid #45787F;*/     
       min-width: 400px;
+      float: left;
     
 }
 
 .leftSide{
     float: left;
     min-width: 400px;
+    max-width: 1000px;
+    margin-left: 10px;
+    margin-right: 10px;
 }
 .rightSide{
    float: left;   
@@ -89,7 +111,7 @@ blockquote{
 blockquote,footer{
     
 }
-.titleOfContent{color:#45787F;}
+#titleOfContent{color:#45787F;}
 footer{
     clear: both;
 }

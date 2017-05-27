@@ -2,15 +2,22 @@ menu{
     min-width: 500px;
     min-height: 70px;
     overflow: hidden;
+    border: 1px lavender solid;
+
    
 }
 menu div{
-    width: 250px;
-    float: left;
+    width: 230px;
+    /*float: left;*/
     margin: 5px;
     min-height: 100px;
     /*background: #D7FFF2;*/ 
+    display: inline-block;
+    vertical-align: top;
+    /*line-height: 100px;*/
+    
 }
+
 menu div>span{
     /*background: #97CCBC;*/
     display: block;
@@ -20,6 +27,15 @@ menu div>span{
     font-size: 20px;
     border-bottom: 1px solid #45787F;
 }
-li a, li{
-  color: #45487F;   
+li{
+  color: #45487F;
+  cursor:pointer;
+  
+}
+li:hover{
+  color:  brown;
+}
+
+li:active{
+  color:  crimson;
 }
