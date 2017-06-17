@@ -1,0 +1,31 @@
+
+#boardForSea{
+    margin: 0 auto;
+    width: 250px;
+    height: 250px;
+    border: 1px solid #45787F;
+    padding: 25px;
+    clear: both;
+    box-sizing: content-box;
+    
+}
+.cel{
+    box-sizing: border-box;
+    width: 25px;
+    height: 25px;
+    border: 1px solid #45787F;
+    float: left;
+    color: #45787F;
+    font-family: 'marskeregular';
+    font-size: 20px;
+    text-align: center;
+    line-height: 25px;
+        
+    
+}
+.cel:hover{
+    cursor: pointer;
+}
+.lin{
+    
+}

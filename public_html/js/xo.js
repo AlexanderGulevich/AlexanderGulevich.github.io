@@ -19,7 +19,7 @@ function setBoard(){
 
                 if (target.className != 'cell') return; 
 
-                target.clicked=true;// создал свойсмтво хранитель состояния
+                target.clicked=true;// создал свойство хранитель состояния
 
                 target.append("x");
         }
