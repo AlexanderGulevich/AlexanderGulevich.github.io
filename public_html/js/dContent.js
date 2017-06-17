@@ -8,7 +8,7 @@
       
    var board=false;
     
-   menu.onclick=function(event){
+    menu.onclick=function(event){
        
        var target = event.target; // где был клик?
        console.dir(target);
@@ -18,8 +18,13 @@
            
             setBoard();
             board=true;
+       } 
+       else if((targetName==="seaGame")&&(board!==true)){
+           
+            SeArea();
+            board=true;
        }
-  
+       
    }
 
 
