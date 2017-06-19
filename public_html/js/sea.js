@@ -1,15 +1,15 @@
 "use strict";
 function SeArea(){
 
+//    var  boardForSea=document.getElementById("boardForSea");
+//    var Content=document.getElementById('titleOfContent');
 
-    var Content=document.getElementById('titleOfContent');
+
     setCaption();  
     
-    insertBoardAfterTeg(Content);
+    insertBoardAfterTeg(titleOfContent);
     
-    var  boardForSea=document.getElementById("boardForSea");
-    
-    
+   
     boardForSea.onclick=function (event){
        
           var target = event.target; // где был клик?
@@ -49,14 +49,17 @@ function SeArea(){
             r=r+c;
         }
         
-            var close='<button>X</button>';
+            var close='<button id="closeButtonForSeaWar">X</button>';
             var html='<div id="boardForSea">'+r+'</div>';
 
                elem.insertAdjacentHTML( "beforeend",close );
                elem.insertAdjacentHTML( "afterEnd",html );
                   
-                  close.onclick = function() {
+                  closeButtonForSeaWar.onclick = function(event) {
+                      
+                      alert("Сделай метод очистки полотна");
                     SeArea.remove();
+                    
                   }
 
      
