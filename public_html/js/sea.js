@@ -49,13 +49,17 @@ function SeArea(){
             r=r+c;
         }
         
-        
+            var close='<button>X</button>';
             var html='<div id="boardForSea">'+r+'</div>';
-                
-                
+
+               elem.insertAdjacentHTML( "beforeend",close );
                elem.insertAdjacentHTML( "afterEnd",html );
-        
-      
+                  
+                  close.onclick = function() {
+                    SeArea.remove();
+                  }
+
+     
 }
 
 }
