@@ -52,15 +52,24 @@ function SeArea(){
             var close='<button id="closeButtonForSeaWar">X</button>';
             var html='<div id="boardForSea">'+r+'</div>';
 
-               elem.insertAdjacentHTML( "beforeend",close );
-               elem.insertAdjacentHTML( "afterEnd",html );
+                elem.insertAdjacentHTML( "beforeend",close );
+                elem.insertAdjacentHTML( "afterEnd",html );
                   
+<<<<<<< HEAD
                   closeButtonForSeaWar.onclick = function(event) {
                       
                       alert("Сделай метод очистки полотна");
                     SeArea.remove();
                     
                   }
+=======
+                    closeButtonForSeaWar.onclick = function(event) {
+
+                        boardForSea.remove();
+                        titleOfContent.remove();
+                    
+                    }
+>>>>>>> AlexeyBranch
 
      
 }
