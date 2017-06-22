@@ -61,7 +61,8 @@ function setBoard(){
                     closeButtonForXO.onclick = function(event) {
 
                         boardForXO.remove();
-                        titleOfContent.remove();
+                        titleOfContent.innerHTML="";
+                        dynamicContent.board=false;
                     
                     }
       

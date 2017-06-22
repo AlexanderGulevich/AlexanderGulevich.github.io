@@ -55,21 +55,15 @@ function SeArea(){
                 elem.insertAdjacentHTML( "beforeend",close );
                 elem.insertAdjacentHTML( "afterEnd",html );
                   
-<<<<<<< HEAD
-                  closeButtonForSeaWar.onclick = function(event) {
-                      
-                      alert("Сделай метод очистки полотна");
-                    SeArea.remove();
-                    
-                  }
-=======
+
                     closeButtonForSeaWar.onclick = function(event) {
 
                         boardForSea.remove();
-                        titleOfContent.remove();
+                        titleOfContent.innerHTML="";
+                        dynamicContent.board=false;
                     
                     }
->>>>>>> AlexeyBranch
+
 
      
 }

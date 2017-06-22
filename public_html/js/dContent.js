@@ -6,7 +6,8 @@
 //       alert(111);
 //   });
       
-   var board=false;
+    
+    dynamicContent.board=false;
     
     menu.onclick=function(event){
        
@@ -14,15 +15,15 @@
        console.dir(target);
        
        var targetName=target.id;
-       if((targetName==="xoGame")&&(board!==true)){
+       if((targetName==="xoGame")&&(dynamicContent.board!==true)){
            
             setBoard();
-            board=true;
+            dynamicContent.board=true;
        } 
-       else if((targetName==="seaGame")&&(board!==true)){
+       else if((targetName==="seaGame")&&(dynamicContent.board!==true)){
            
             SeArea();
-            board=true;
+            dynamicContent.board=true;
        }
        
    }
