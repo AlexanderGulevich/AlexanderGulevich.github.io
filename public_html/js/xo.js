@@ -32,7 +32,8 @@ function setBoard(){
     }
 
     function insertBoardAfterTeg(elem) {
-        
+            
+            var close='<button id="closeButtonForXO">X</button>';
             var html=                    '<div id="boardForXO">'+
 
                                              '<div class="line"> '+
@@ -54,9 +55,15 @@ function setBoard(){
                                             ' </div>'+
                                          ' </div>';
                 
-                
-               elem.insertAdjacentHTML( "afterEnd",html );
-        
+                elem.insertAdjacentHTML( "beforeend",close );
+                elem.insertAdjacentHTML( "afterEnd",html );
+                    
+                    closeButtonForXO.onclick = function(event) {
+
+                        boardForXO.remove();
+                        titleOfContent.remove();
+                    
+                    }
       
 }
 
